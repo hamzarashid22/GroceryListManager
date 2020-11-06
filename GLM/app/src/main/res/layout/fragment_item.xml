@@ -1,0 +1,61 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_tablerow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="10sp"
+    android:paddingTop="2sp"
+    android:paddingEnd="15sp">
+
+    <Button
+        android:id="@+id/add_item_button"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:background="@drawable/button1"
+        android:text="+"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#4BC538" />
+
+    <TextView
+        android:id="@+id/item_name_textview"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0sp"
+        android:layout_marginEnd="15sp"
+        android:layout_marginBottom="20sp"
+        android:paddingStart="20sp"
+        android:paddingTop="20sp"
+        android:paddingEnd="20sp"
+        android:paddingBottom="20sp"
+        android:text="Item Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/item_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/item_category_textbox"
+        android:layout_width="106dp"
+        android:layout_height="42dp"
+        android:paddingStart="10sp"
+        android:paddingEnd="10sp"
+        android:text="TextView"
+        android:textAllCaps="true"
+        android:textColor="#008000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+</TableRow>
+
+
+

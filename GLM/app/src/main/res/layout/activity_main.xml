@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:backgroundTint="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="365dp"
+        android:layout_height="687dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="203dp"
+        android:background="#F8F4F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="176dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="93dp"
+            android:background="#F44336"
+            android:backgroundTint="#EFEEE7"
+            android:foregroundTint="#D5BCBC"
+            android:shadowColor="#842195"
+            android:text="Tap the button to create list"
+            android:textAlignment="center"
+            android:textColor="#009688"
+            android:textColorHighlight="#602121"
+            android:textColorHint="#C5A4A4"
+            android:textColorLink="#B3BA6C"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:drawableTint="#9C1B1B"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginEnd="18dp"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/button1"
+            android:onClick="showdialogtocreatelist"
+            android:text="+"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ListView
+            android:id="@+id/grocerylist"
+            android:layout_width="363dp"
+            android:layout_height="481dp"
+            android:layout_marginTop="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
